@@ -9,31 +9,62 @@
     padding: 10px;
     margin: 0 auto;
 }
+
+
 .topblock{
     display:flex;
     align-self: flex-start;
     flex-flow: column;
     justify-content: flex-start;
+    border-bottom: 15px solid black;
+    /* justify-content: ; */
     
       
 }
+
 .secondblock {
     display: flex;
     align-self: flex-start;
-    margin: 0;
-    flex-flow: column nowrap;
+    margin: 5px;
+    padding: 5px;
+    /* flex-flow: row wrap; */
+    flex-direction: row;
+    border: 1px dashed black;
+    
+    
 
 }
-.tline, .cline , .btline {
+.fstline {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column;
     /* margin: 0 auto; */
+    order: 0;
+    border: 1px solid black;
+    
+}
+.sndline {
+    flex-direction: column;
+    display: flex;
+    /* flex-flow: column; */
+    /* margin: 0 auto; */
+    order: 1;
+    border: 1px solid black;
+    
+    
+}
+.trdline {
+    display: flex;
+    flex-direction: column;
+    /* flex-flow: column; */
+    /* margin: 0 auto; */
+    order: 2;
+    border: 1px solid black;
+
     
 }
 
 
-
-.milk{
+/* .milk{
     display: flex;
     flex-flow: column wrap;
-}
+} */

@@ -1,4 +1,7 @@
 
+body{
+   margin: 40%;
+}
 .container{
     padding: 0 6px;
     border: 1px solid black;

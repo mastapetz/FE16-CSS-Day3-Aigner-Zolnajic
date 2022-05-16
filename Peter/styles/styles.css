@@ -1,16 +1,16 @@
+/* Top Container */
 .mcontainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     border: 1px solid black;
-    width: 350px;
+    width: 400px;
     height: 900px;
-    /* background-color: aqua; */
     padding: 10px;
     margin: 0 auto;
 }
 
-
+/* Header block */
 .topblock{
     display:flex;
     width: 100%;
@@ -18,10 +18,8 @@
     flex-flow: column;
     justify-content: flex-start;
     border-bottom: 10px solid black;
-    /* border-width: 9%; */
-      
 }
-
+/* first table */
 .secondblock {
     display: flex;
     width: 95%;
@@ -31,58 +29,65 @@
     flex-direction: row;
     border-bottom: 7px solid black;
     border-width: 100%;
-
 }
+
 p, h1 {
     margin: 0;
 }
-.fstline, .tbl1 {
+/* First Coulmn all 3 tables  */
+.fstline, .tbl1 ,.thbl1{
     display: flex;
     flex-direction: column;
     flex: 8;
     justify-content: flex-end;
 }
-
+/* underline first row first table */
 .f1t, .t1t,.th1t{
     display: flex;
     border-bottom: 2px solid black;
 
 }
-
+/* first Table third line first column */
 .f3d {
     margin-left: 17px;
     border-top: 1px solid black;
-    /* box-sizing:content-box; */
-    /* width: 100%; */
-
 }
-
+/* first Table third line second and third column */
 .t3d,.th3d{
     border-top: 1px solid black;
     width: 100%;
 }
 
-.sndline, .tbl2 {
+.sndline {
     flex-direction: column;
     display: flex;
-    /* flex-flow: column; */
-    /* margin: 0 auto; */
     flex: 1;
     justify-content: flex-end;
     align-items: flex-end;   
     text-align: right; 
 }
-
-.trdline, .tbl3 {
-    display: flex;
+/* ,.thbl2 */
+.tbl2 {
     flex-direction: column;
-    /* flex-flow: column; */
-    /* margin: 0 auto; */
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: flex-end;   
+    text-align: right; 
+}
+/* ,.thbl3 */
+.trdline,.thbl3{
+    flex-direction: column;
     flex: 2;
     align-items: flex-end;
     text-align: right;
+}
 
-    
+.tbl3 {
+    flex-direction: column;
+    flex: 2;
+    align-items: flex-end;
+    text-align: right;
 }
 
 .dval{
@@ -97,12 +102,11 @@ p, h1 {
     margin: 5px;
     padding: 5px;
     flex-direction: row;
-    border-bottom: 7px solid black;
+    border-bottom: 10px solid black;
     border-width: 100%;
-
 }
 
-.tbl1 {
+.tbl1, .thbl {
     display: flex;
     flex-direction: column;
     flex: 8;
@@ -120,7 +124,79 @@ p, h1 {
     margin-left: 15px;
 }
 
-.tbl2b, .tbl2c,.tbl3b, .tbl3c,.tbl1e,.tbl2e,.tbl3e, .tbl2g, .tbl2h, .tbl3g, .tbl3h,  .tbl1i, .tbl2i, .tbl3i{
+.tbl2b, .tbl2c,.tbl3b, .tbl3c,.tbl1e,.tbl2e,.tbl3e, .tbl2g, .tbl2h, .tbl3g, .tbl3h,  .tbl1i, .tbl2i, .tbl3i, .thbl1b, .thbl2b, .thbl3b, .thbl1c, .thbl2c, .thbl3c, .thbl1d, .thbl2d, .thbl3d{
     border-top: 1px solid black;
     width: 100%;
+}
+
+.fourthblock {
+    display: flex;
+    width: 95%;
+    align-self: flex-start;
+    margin: 5px;
+    padding: 5px;
+    flex-direction: row;
+    border-bottom: 2px solid black;
+    border-width: 100%;
+}
+.fifthblock {
+    display: flex;
+    width: 95%;
+    align-self: flex-start;
+    margin: 5px;
+    padding: 5px;
+    flex-direction: row;
+}
+.sixthblock {
+    display: flex;
+    width: 95%;
+    align-self: flex-start;
+    margin: 5px;
+    padding: 5px;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    border-width: 100%;
+}
+
+.yab1b, .yab2b, .yab3b, .yab4b {
+    border-top: 1px solid black;
+    width: 100%;
+}
+
+.yab1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex: 3;
+}
+
+.yab2{
+    flex-direction: column;
+    justify-content: flex-end;
+    flex: 2;
+}
+
+.yab3,.yab4{
+    flex-direction: column;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.yab1c, .yab1g {
+    margin-left: 15px;
+}
+
+.calpg {
+    /* display: flex; */
+    width: 95%;
+    align-self: flex-start;
+    margin: 5px;
+    padding: 5px;
+    flex-direction: row;
+}
+
+.FCP{
+   display: flex;
+   align-self: center;
+   justify-content: space-around;
 }

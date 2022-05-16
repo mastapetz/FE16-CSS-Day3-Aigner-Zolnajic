@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     border: 1px solid black;
-    width: 400px;
+    width: 350px;
     height: 900px;
     /* background-color: aqua; */
     padding: 10px;
@@ -13,23 +13,25 @@
 
 .topblock{
     display:flex;
+    width: 100%;
     align-self: flex-start;
     flex-flow: column;
     justify-content: flex-start;
-    border-bottom: 15px solid black;
-    /* justify-content: ; */
-    
+    border-bottom: 10px solid black;
+    /* border-width: 9%; */
       
 }
 
 .secondblock {
     display: flex;
+    width: 95%;
     align-self: flex-start;
     margin: 5px;
     padding: 5px;
-    /* flex-flow: row wrap; */
     flex-direction: row;
-    /* border: 1px dashed black; */
+    border-bottom: 7px solid black;
+    border-width: 100%;
+
 }
 p {
     margin: 0;
@@ -37,48 +39,49 @@ p {
 .fstline {
     display: flex;
     flex-direction: column;
-    /* margin: 0 auto; */
     flex: 8;
-    border: 1px solid black;
     justify-content: flex-end;
 }
 
-.obhr{
+.f1t, .t1t,.th1t{
     display: flex;
-    flex-basis: auto;
+    border-bottom: 2px solid black;
+
 }
 
-.fstline.f3d{
-    display: flex;
-    
+.f3d {
+    margin-left: 17px;
+    border-top: 1px solid black;
+    /* box-sizing:content-box; */
+    /* width: 100%; */
+
 }
+
+.t3d,.th3d{
+    border-top: 1px solid black;
+    width: 100%;
+}
+
 .sndline {
     flex-direction: column;
     display: flex;
     /* flex-flow: column; */
     /* margin: 0 auto; */
-    flex: 2;
+    flex: 1;
     justify-content: flex-end;
-    border: 1px solid black;
-    align-items: flex-end;
-
-    
-    
+    align-items: flex-end;   
+    text-align: right; 
 }
+
 .trdline {
     display: flex;
     flex-direction: column;
     /* flex-flow: column; */
     /* margin: 0 auto; */
-    border: 1px solid black;
     flex: 2;
     align-items: flex-end;
+    text-align: right;
 
     
 }
 
-
-/* .milk{
-    display: flex;
-    flex-flow: column wrap;
-} */

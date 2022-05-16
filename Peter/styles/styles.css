@@ -33,10 +33,10 @@
     border-width: 100%;
 
 }
-p {
+p, h1 {
     margin: 0;
 }
-.fstline {
+.fstline, .tbl1 {
     display: flex;
     flex-direction: column;
     flex: 8;
@@ -62,7 +62,7 @@ p {
     width: 100%;
 }
 
-.sndline {
+.sndline, .tbl2 {
     flex-direction: column;
     display: flex;
     /* flex-flow: column; */
@@ -73,7 +73,7 @@ p {
     text-align: right; 
 }
 
-.trdline {
+.trdline, .tbl3 {
     display: flex;
     flex-direction: column;
     /* flex-flow: column; */
@@ -107,4 +107,20 @@ p {
     flex-direction: column;
     flex: 8;
     justify-content: flex-end;
+}
+
+.tbl1a, .tbl2a, .tbl3a,.tbl1d, .tbl2d, .tbl3d,.tbl1f,.tbl2f,.tbl3f {
+    border-top: 2px solid black;
+    width: 100%;
+}
+
+.tbl1b, .tbl1c, .tbl1g, .tbl1h{
+    border-top: 1px solid black;
+    width: 100%;
+    margin-left: 15px;
+}
+
+.tbl2b, .tbl2c,.tbl3b, .tbl3c,.tbl1e,.tbl2e,.tbl3e, .tbl2g, .tbl2h, .tbl3g, .tbl3h,  .tbl1i, .tbl2i, .tbl3i{
+    border-top: 1px solid black;
+    width: 100%;
 }

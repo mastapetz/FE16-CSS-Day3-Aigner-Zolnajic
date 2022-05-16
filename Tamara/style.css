@@ -1,0 +1,105 @@
+
+.container{
+    padding: 0 6px;
+    border: 1px solid black;
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 3px;
+    height: 100vh;
+    line-height: 2px;
+}
+
+.one{
+    font-weight: bold;
+    font-size: 13px;
+    width: 100%;
+    text-align: right;
+}
+.two{
+    font-weight: bold;
+    font-size: 13px;
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    justify-content:  space-between;
+}
+.two1{
+    flex-basis: 60%;
+}
+.two2{
+    flex-basis: 15%;
+    text-align: right;
+}
+.three{
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    justify-content:  space-between;
+    font-size: 16px;
+}
+.three1{
+    flex-basis: 60%;
+    font-weight: bold;
+}
+.three2{
+    flex-basis: 15%;
+    text-align: right;
+}
+.four{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    font-size: 16px;
+}
+.four1{
+    border-top: 2px solid gray;
+    flex-basis: 60%;
+}
+.four2{
+    border-top: 2px solid gray;
+    flex-basis: 15%;
+    text-align: end;
+}
+.four3{
+    border-top: 2px solid gray;
+    flex-basis: 20%;
+    text-align: right;
+}
+.five{
+    display: flex;
+    width: 100%;
+    justify-content:start;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.five1{
+    flex-basis: 60%;
+    font-weight: bold;
+}
+.five2{
+    flex-basis: 15%;
+    text-align: right;
+    font-weight: bold;
+}
+.six{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    font-size: 16px;
+}
+.six1{
+    border-top: 2px solid gray;
+    flex-basis: 60%;
+}
+.six2{
+    border-top: 2px solid gray;
+    flex-basis: 15%;
+    text-align: end;
+    font-weight: bold;
+}
+.six3{
+    border-top: 2px solid gray;
+    flex-basis: 20%;
+    text-align: right;
+    font-weight: bold;
+}

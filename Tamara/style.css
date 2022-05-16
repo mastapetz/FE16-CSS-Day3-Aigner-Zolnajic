@@ -1,0 +1,46 @@
+
+.container{
+    padding: 0 6px;
+    border: 1px solid black;
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 3px;
+    height: 100vh;
+}
+#big{
+    height: 10px;
+    background-color: black;
+}
+
+.one{
+    font-weight: bold;
+    font-size: 11px;
+    width: 100%;
+    text-align: right;
+}
+.two{
+    display: flex;
+    width: 100%;
+    border: 2px solid red;
+}
+.two1{
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 11px;
+    flex-basis: 30%;
+    align-items: flex-end;
+}
+.two2{
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 11px;
+    flex-basis: 30%;
+    align-items: flex-end;
+}
+.two3{
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 11px;
+    flex-basis: 30%;
+    align-items: flex-end;
+}

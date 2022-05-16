@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     border: 1px solid black;
-    width: 500px;
+    width: 350px;
     height: 900px;
     /* background-color: aqua; */
     padding: 10px;
@@ -13,58 +13,114 @@
 
 .topblock{
     display:flex;
+    width: 100%;
     align-self: flex-start;
     flex-flow: column;
     justify-content: flex-start;
-    border-bottom: 15px solid black;
-    /* justify-content: ; */
-    
+    border-bottom: 10px solid black;
+    /* border-width: 9%; */
       
 }
 
 .secondblock {
     display: flex;
+    width: 95%;
     align-self: flex-start;
     margin: 5px;
     padding: 5px;
-    /* flex-flow: row wrap; */
     flex-direction: row;
-    border: 1px dashed black;
-    
-    
+    border-bottom: 7px solid black;
+    border-width: 100%;
 
 }
-.fstline {
-    display: flex;
-    flex-flow: column;
-    /* margin: 0 auto; */
-    order: 0;
-    border: 1px solid black;
-    
+p, h1 {
+    margin: 0;
 }
-.sndline {
+.fstline, .tbl1 {
+    display: flex;
+    flex-direction: column;
+    flex: 8;
+    justify-content: flex-end;
+}
+
+.f1t, .t1t,.th1t{
+    display: flex;
+    border-bottom: 2px solid black;
+
+}
+
+.f3d {
+    margin-left: 17px;
+    border-top: 1px solid black;
+    /* box-sizing:content-box; */
+    /* width: 100%; */
+
+}
+
+.t3d,.th3d{
+    border-top: 1px solid black;
+    width: 100%;
+}
+
+.sndline, .tbl2 {
     flex-direction: column;
     display: flex;
     /* flex-flow: column; */
     /* margin: 0 auto; */
-    order: 1;
-    border: 1px solid black;
-    
-    
+    flex: 1;
+    justify-content: flex-end;
+    align-items: flex-end;   
+    text-align: right; 
 }
-.trdline {
+
+.trdline, .tbl3 {
     display: flex;
     flex-direction: column;
     /* flex-flow: column; */
     /* margin: 0 auto; */
-    order: 2;
-    border: 1px solid black;
+    flex: 2;
+    align-items: flex-end;
+    text-align: right;
 
     
 }
 
-
-/* .milk{
+.dval{
     display: flex;
-    flex-flow: column wrap;
-} */
+    align-self:  flex-end;
+}
+
+.thirdblock {
+    display: flex;
+    width: 95%;
+    align-self: flex-start;
+    margin: 5px;
+    padding: 5px;
+    flex-direction: row;
+    border-bottom: 7px solid black;
+    border-width: 100%;
+
+}
+
+.tbl1 {
+    display: flex;
+    flex-direction: column;
+    flex: 8;
+    justify-content: flex-end;
+}
+
+.tbl1a, .tbl2a, .tbl3a,.tbl1d, .tbl2d, .tbl3d,.tbl1f,.tbl2f,.tbl3f {
+    border-top: 2px solid black;
+    width: 100%;
+}
+
+.tbl1b, .tbl1c, .tbl1g, .tbl1h{
+    border-top: 1px solid black;
+    width: 100%;
+    margin-left: 15px;
+}
+
+.tbl2b, .tbl2c,.tbl3b, .tbl3c,.tbl1e,.tbl2e,.tbl3e, .tbl2g, .tbl2h, .tbl3g, .tbl3h,  .tbl1i, .tbl2i, .tbl3i{
+    border-top: 1px solid black;
+    width: 100%;
+}
